@@ -1,0 +1,31 @@
+{
+  "name": "elle-agent-components",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hmm 思考回放治理、消息过滤、QQ 工具与记忆组件",
+  "type": "module",
+  "license": "MIT",
+  "author": "Eladriel777",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": "./src/index.js",
+    "./hmm": "./src/replay/hmm.js",
+    "./replay": "./src/replay/prepare.js",
+    "./filters": "./src/filters/index.js",
+    "./qq": "./src/qq/index.js"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "demo": "node examples/hmm-demo.mjs"
+  },
+  "openclaw": {
+    "extensions": [
+      "./adapters/openclaw/plugin.js"
+    ],
+    "compat": {
+      "minGatewayVersion": "2026.6.6"
+    }
+  }
+}

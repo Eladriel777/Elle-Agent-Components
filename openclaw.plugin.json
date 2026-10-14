@@ -1,0 +1,14 @@
+{
+  "id": "elle-agent-components",
+  "name": "Elle 智能体组件集",
+  "version": "1.0.0",
+  "contracts": { "tools": ["qq_poke", "qq_avatar", "qq_forward", "qq_notice", "qq_member", "qq_reaction"] },
+  "configSchema": {
+    "type": "object",
+    "properties": {
+      "httpUrl": { "type": "string", "default": "http://127.0.0.1:3001" },
+      "accessToken": { "type": "string" }
+    },
+    "additionalProperties": false
+  }
+}

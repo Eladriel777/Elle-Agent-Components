@@ -1,0 +1,23 @@
+{
+  "enabled": true,
+  "filters": {
+    "guard-echo": {
+      "enabled": true,
+      "minPatternMatches": 3
+    },
+    "tool-error-notice": {
+      "enabled": true,
+      "groupOnly": true
+    },
+    "openclaw-status-echo": {
+      "enabled": true
+    },
+    "fallback-notice": {
+      "enabled": true
+    },
+    "transcript-echo": {
+      "enabled": true,
+      "mode": "truncate"
+    }
+  }
+}

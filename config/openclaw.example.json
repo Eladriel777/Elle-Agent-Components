@@ -1,0 +1,29 @@
+{
+  "plugins": {
+    "entries": {
+      "elle-agent-components": {
+        "enabled": true,
+        "config": {
+          "httpUrl": "http://127.0.0.1:3001"
+        }
+      }
+    }
+  },
+  "agents": {
+    "list": [
+      {
+        "id": "qqgroup",
+        "tools": {
+          "alsoAllow": [
+            "qq_poke",
+            "qq_avatar",
+            "qq_forward",
+            "qq_notice",
+            "qq_member",
+            "qq_reaction"
+          ]
+        }
+      }
+    ]
+  }
+}

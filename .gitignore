@@ -1,0 +1,16 @@
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.log
+*.jsonl
+*.sqlite*
+*.bak-*
+data/
+runtime/
+sessions/
+images/
+memory_system_state.json
+_failed.txt
